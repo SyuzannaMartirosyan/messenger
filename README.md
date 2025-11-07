@@ -1,5 +1,12 @@
 Chat App — Project Work, Sprint 1  
 Design file - https://www.figma.com/design/EH4Jx76LjuEwBAvbL8xX0F/module-1-y?node-id=65-1651&t=js3gJJoXdIv4a2wo-1
+## 🌐 Deploy link
+[View live project / login](https://gleeful-rolypoly-742202.netlify.app)
+[reg page]   https://gleeful-rolypoly-742202.netlify.app/registration.html
+[messenger page]  https://gleeful-rolypoly-742202.netlify.app/messenger.html
+[profile page]  https://gleeful-rolypoly-742202.netlify.app/profile.html
+[404] https://gleeful-rolypoly-742202.netlify.app/error404.html
+[505] https://gleeful-rolypoly-742202.netlify.app/error505.html
 
 
 ## About Project  
