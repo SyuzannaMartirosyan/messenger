@@ -1,0 +1,20 @@
+<div class="chats">
+  <header class="chats__header u-flex-end ">
+    {{> button  text="My Profile" type ='button' modifier="secondary" dataRoute="http://localhost:3000/profile.html" }}
+  </header>
+   {{> input name="search" type="text" placeholder="Search" required=false}}
+
+  <ul class="chats__list">
+    {{#each chats}}
+      <li class="chats__item" data-id="{{id}}">
+        {{> chat-item
+          avatar=avatar
+          name=name
+          time=time
+          lastMessage=lastMessage
+          unreadCount=unreadCount
+        }}
+      </li>
+    {{/each}}
+  </ul>
+</div>

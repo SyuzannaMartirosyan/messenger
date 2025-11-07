@@ -1,0 +1,28 @@
+.button-round {
+  border: none;
+    width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.25s ease;
+}
+
+.button-round--icon {
+  background-color: var(--color-bg-btn-primary);
+  color: var(--color-text-dark);
+
+  &:hover {
+    background-color: var(--color-bg-surface-hover);
+  }
+
+  .button-round__icon img {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+.button--secondary {
+  background-color: var(--color-bg-btn-secondary);
+  color: var(--color-text-primary);
+}

@@ -1,0 +1,42 @@
+.button {
+  min-width: 100px;
+  padding: 4px 0px;
+  height: 40px;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+font-style: normal;
+line-height: normal;
+font-family: var(--font-family-base);
+
+}
+
+.button--primary {
+  background: var(--color-accent-primary);
+  color: var(--color-text-dark);
+
+  &:hover {
+    background: color-mix(in srgb, var(--color-accent-primary), #000 10%);
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+.button--secondary {
+  background: var(--color-accent-secondary);
+  color: var(--color-text-primary);
+  &:hover {
+    background: color-mix(in srgb, var(--color-accent-secondary), #000 10%);
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+

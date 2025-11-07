@@ -1,0 +1,27 @@
+.error-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: var( --color-bg-page);
+}
+
+.error-message__content {
+  align-items: center;
+  gap:var(--space-md);
+}
+
+.error-message__code {
+  font-size: 80px;
+  font-weight: 700;
+  color: var( --color-text-secondary);
+  gap: var(--space-md);
+}
+
+.error-message__text {
+  font-size: 20px;
+  color: rgba(255,255,255,0.8);
+}
+
+
