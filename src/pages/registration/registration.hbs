@@ -2,13 +2,13 @@
     <div class="authentication__content">
 <h2 class="authentication__title u-text-center ">Registration</h2>
 <form class="authentication__form " name="login">
-     {{> input name="mail adress" label="Mail Address" type="email" placeholder="Mail Address" autocomplete ="on" required=true }}
+     {{> input name="email" label="Mail Address" type="email" placeholder="Mail Address" autocomplete ="on" required=true }}
     {{> input name="login" label="Login" type="text" placeholder=" Login" autocomplete ="off" required=true }}
-      {{> input name="name" label="Name" type="text" placeholder="Name" autocomplete ="on" required=true }}
-        {{> input name="last name" label="Last Name" type="text" placeholder="Last Name" autocomplete ="on" required=true }}
-          {{> input name="phone number" label="Phone Number" type="tel" placeholder="Phone Number" autocomplete ="off" required=true }}
+      {{> input name="first_name" label="Name" type="text" placeholder="Name" autocomplete ="on" required=true }}
+        {{> input name="second_name" label="Last Name" type="text" placeholder="Last Name" autocomplete ="on" required=true }}
+          {{> input name="phone" label="Phone Number" type="tel" placeholder="Phone Number" autocomplete ="off" required=true }}
     {{> input name="password" label="Password" type="password" placeholder="Password" autocomplete ="off" required=true }}
-    {{> input name=" confirm password" label="Confirm Password" type="password" placeholder="Confirm Password"autocomplete ="off" required=true }}
+    {{> input name="password" label="Confirm Password" type="password" placeholder="Confirm Password"autocomplete ="off" required=true }}
 
     <div class="authentication__actions">
        {{> button  text="Registration" type ='submit' modifier="primary" dataRoute="./messenger.html"}}
