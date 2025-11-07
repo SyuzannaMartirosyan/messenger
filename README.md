@@ -1,4 +1,5 @@
 Chat App — Project Work, Sprint 1  
+Design file - https://www.figma.com/design/EH4Jx76LjuEwBAvbL8xX0F/module-1-y?node-id=65-1651&t=js3gJJoXdIv4a2wo-1
 
 
 ## About Project  
