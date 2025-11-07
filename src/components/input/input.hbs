@@ -1,0 +1,17 @@
+<label class="input u-flex-start u-f-direction-column">
+  {{#if label}}
+    <span class="input__label">{{label}}</span>
+  {{/if}}
+
+  <input 
+    class="input__control u-flex-start" 
+    name="{{name}}" 
+    type="{{type}}" 
+    placeholder="{{placeholder}}" 
+    autocomplete="{{ autocomplete}}"
+    {{#if required}}required{{/if}}>
+
+  {{#if error}}
+    <small class="input__error">{{error}}</small>
+  {{/if}}
+</label>

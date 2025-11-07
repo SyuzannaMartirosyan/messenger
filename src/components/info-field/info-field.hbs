@@ -1,0 +1,14 @@
+<div class="info-field {{#if isEditable}}info-field--editable{{/if}}">
+  <label class="info-field__label">{{label}}</label>
+
+  {{#if isEditMode}}
+    <input 
+      class="info-field__input" 
+      type="{{type}}" 
+      name="{{name}}" 
+      value="{{value}}"
+    >
+  {{else}}
+    <span class="info-field__value">{{value}}</span>
+  {{/if}}
+</div>

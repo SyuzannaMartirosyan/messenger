@@ -1,0 +1,27 @@
+<form class="message-form u-flex-between" name="message-form">
+  {{> button-round
+      type="button"
+      modifier="secondary"
+      ariaLabel="Add file"
+      icon="pin"
+  }}
+
+  <div class="message-form__field">
+    {{> input
+        name="message"
+        type="text"
+        placeholder="Message"
+         autocomplete="off"
+        required=false
+
+    }}
+  </div>
+
+  <div class="message-form__actions">
+    {{> button
+        text="Send"
+        type="submit"
+        modifier="secondary"
+    }}
+  </div>
+</form>

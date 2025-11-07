@@ -1,0 +1,14 @@
+
+@use '../../styles/variables' as *;
+.chats{
+    height: 100vh;
+    width: calc((620px * 100vw )/1920px);
+    padding: $space-sm 0;
+gap: $space-sm;
+
+&__header{
+       padding: $space-sm ;
+}
+
+
+}

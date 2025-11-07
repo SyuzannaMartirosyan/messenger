@@ -1,0 +1,38 @@
+@use './helpers';
+@use './variables';
+
+@use '../components/button/button.scss' ;
+@use '../components/input/input.scss' ;
+@use '../components/button-round/button-round.scss' ;
+@use '../components/button-action/button-action.scss' ;
+@use '../components/chat-item/chat-item.scss' ;
+@use '../components/message/message.scss' ;
+@use '../components/info-field/info-field.scss' ;
+@use '../components/profile-card/profile-card.scss' ;
+
+@use '../modules/chat-list/chat-list.scss' ;
+@use '../modules/message-form/message-form.scss' ;
+@use '../modules/message-error/message-error.scss' ;
+@use '../modules/chat-header/chat-header.scss' ;
+
+@use '../pages/login/login.scss' ;
+@use '../pages/messenger/messenger.scss' ;
+@use '../pages/profile/profile.scss' ;
+
+
+html, body, #app {
+  height: 100%;
+}
+*{
+ margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+ 
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  background: var(--color-bg-page);
+  color: var(--color-text-primary);
+}

@@ -1,0 +1,35 @@
+<li class="message
+           {{#if isMine}}message--mine{{else}}message--theirs{{/if}}">
+  {{#unless isMine}}
+    <div class="message__avatar">
+      {{#if avatar}}
+        <img src="{{avatar}}" alt="{{author}}" class="message__avatar-img" />
+      {{else}}
+        <div class="message__avatar-placeholder"></div>
+      {{/if}}
+    </div>
+  {{/unless}}
+
+  <div class="message__bubble">
+    {{#if hasImage}}
+      <div class="message__image-wrapper">
+        <img src="{{imageUrl}}" alt="" class="message__image" />
+      </div>
+    {{/if}}
+
+    {{#if text}}
+      <p class="message__text">
+        {{text}}
+      </p>
+    {{/if}}
+
+    <div class="message__meta">
+      <span class="message__time">{{time}}</span>
+      {{#if isMine}}
+        {{#if status}}
+          <span class="message__status">{{status}}</span>
+        {{/if}}
+      {{/if}}
+    </div>
+  </div>
+</li>

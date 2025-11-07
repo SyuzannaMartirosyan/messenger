@@ -1,0 +1,22 @@
+
+<section class="authentication u-center-screen">
+    <div class="authentication__content">
+<h2 class="authentication__title u-text-center ">SIGN IN</h2>
+<form class="authentication__form " name="login">
+  {{! булеан required нужно будет потом заменить на true}}
+    {{> input name="login" label="Login" type="text" placeholder="Your Login"  autocomplete ="on" required=false }}
+    {{> input name="password" label="Password" type="password" placeholder="Password" autocomplete ="of" required=false }}
+
+    <div class="authentication__actions">
+       {{> button  text="Sign In" type ='submit' modifier="primary" data-route="http://localhost:3000/messenger.html"}}
+    </div>
+
+    <p class="authentication__hint u-text-center">
+      <a href="http://localhost:3000/error404.html">Do you forgot Password?</a>
+    </p>
+     <p class="authentication__hint u-text-center">
+      <a href="http://localhost:3000/registration.html">Registration</a>
+    </p>
+  </form>
+</div>
+</section>

@@ -1,0 +1,23 @@
+<header class="chat-header u-flex-between ">
+<div class="u-flex">
+    <div class="chat-header__avatar u-flex-center">
+    {{#if avatar}}
+      <img src="{{avatar}}" alt="{{alt}}" class="chat-header__avatar-img" />
+    {{else}}
+      <div class="chat-header__avatar-placeholder"></div>
+    {{/if}}
+  </div>
+  <p> {{userName}}</p>
+</div>
+  
+
+     <div class="chat-header__actions u-flex">
+   {{> button-round
+      type="button"
+      modifier="secondary"
+      ariaLabel="chat setting"
+      icon="more"
+  }}
+  </div>
+
+</header>

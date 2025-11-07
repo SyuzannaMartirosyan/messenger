@@ -1,0 +1,19 @@
+.message-form {
+  position: relative;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  background: var(--color-bg-surface);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+width: calc(100vw - ((620px * 100vw )/1920px));
+
+&__field{
+  width: 100%;
+}
+}
+
+
+
