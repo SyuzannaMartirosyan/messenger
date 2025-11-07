@@ -10,13 +10,13 @@ export function renderError505(root) {
 
 //это нужно будет убрать после организации роутинга
 document.addEventListener("DOMContentLoaded", () => {
-  const button = document.querySelector(".button");
+  const button = document.querySelector(".button")
 
-  if (!button) return; 
+  if (!button) return
 
   button.addEventListener("click", (event) => {
-    event.preventDefault();
+    event.preventDefault()
     
-    window.location.href = "http://localhost:3000/messenger.html";
+    window.location.href = "http://localhost:3000/messenger.html"
   });
 });
