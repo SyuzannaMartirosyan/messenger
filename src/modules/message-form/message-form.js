@@ -1,7 +1,5 @@
-import template from './message-form.hbs?row'
+import template from './message-form.hbs?row';
 
-
-export function renderMessageForm ({}){
-
-return template ({})
+export function renderMessageForm({}) {
+  return template({});
 }

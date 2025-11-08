@@ -1,16 +1,13 @@
 .chat-header {
   padding: var(--space-md);
   background: var(--color-bg-header);
-    position: relative;
-    top: 0;
-    right: 0;
-    width: 100%;
-   
-
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 100%;
 }
 
 .chat-header__user {
-
   gap: var(--space-md);
 }
 
@@ -19,7 +16,7 @@
   height: 40px;
   border-radius: 50%;
   overflow: hidden;
-  background:var(--color-bg-avatar);
+  background: var(--color-bg-avatar);
 }
 
 .chat-header__avatar-img {

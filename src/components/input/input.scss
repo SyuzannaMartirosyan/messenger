@@ -1,39 +1,36 @@
-.input{
-    padding: var(--space-sm);
-    gap: var(--space-md);
-    font-family: var(--font-family-base);
-
+.input {
+  padding: var(--space-sm);
+  gap: var(--space-md);
+  font-family: var(--font-family-base);
 }
-.input__label{
-color: var(----color-text-primary, #FFF);
-font-size: var( --font-size-sm);
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+.input__label {
+  color: var(----color-text-primary, #fff);
+  font-size: var(--font-size-sm);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-.input__control{
-height: 46px;
-width: 100%;
- padding: var(--space-md);
- border: 2px solid var(--color-accent-secondary, #375BDD);
- border-radius: var(--radius-md);
- font-size: var(--font-size-base);
-
+.input__control {
+  height: 46px;
+  width: 100%;
+  padding: var(--space-md);
+  border: 2px solid var(--color-accent-secondary, #375bdd);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
 }
-.input__control::placeholder{
+.input__control::placeholder {
   color: var(--color-text-secondary);
   font-size: var(--font-size-xs);
 }
-.input__message{
-    color: var(----color-state-error, #FF2929);
-font-size: var(  --font-size-xs);
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-
+.input__message {
+  color: var(----color-state-error, #ff2929);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 /* state when input invalid */
 .input--invalid .input__control {
-  border-color: var(--color-state-error, #FF2929);
+  border-color: var(--color-state-error, #ff2929);
 }

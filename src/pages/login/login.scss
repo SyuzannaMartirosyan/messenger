@@ -1,60 +1,53 @@
-
-
 @use '../../styles/variables' as *;
 
 .authentication {
-
-backdrop-filter: blur(10px);
-&__content{
+  backdrop-filter: blur(10px);
+  &__content {
     width: 510px;
-  padding: 32px 60px;
-  margin: $space-lg;
-  border-radius: var(--radius-lg);
-  background: var(--color-bg-surface);
-  color: var(--color-text-primary);
-font-family: var(--font-family-base);
-  
+    padding: 32px 60px;
+    margin: $space-lg;
+    border-radius: var(--radius-lg);
+    background: var(--color-bg-surface);
+    color: var(--color-text-primary);
+    font-family: var(--font-family-base);
+  }
+  &__title {
+    color: var(----color-text-primary, #fff);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: $space-sm;
+  }
 
-}
-&__title {
-  color: var(----color-text-primary, #FFF);
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-bottom: $space-sm;
-}
+  &__form {
+    display: grid;
+  }
 
-&__form {
-  display: grid;
-}
+  &__actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+  }
 
-&__actions {
-  display: flex;
-  justify-content: center;
-  margin-top: 8px;
-}
+  &__hint {
+    margin-top: $space-md;
+    text-align: center;
+    font-size: var(-font-size-base);
+    color: var(--color-text-primary);
+  }
 
-&__hint {
-  margin-top: $space-md;
-  text-align: center;
-  font-size: var(-font-size-base);
-  color: var(--color-text-primary);
-}
+  &__hint a {
+    color: var(--color-text-primary);
+    text-decoration: none;
+  }
+  &__hint a:hover {
+    text-decoration: underline;
+  }
 
-&__hint a {
- color: var(--color-text-primary);
-  text-decoration: none;
+  @media screen and (max-width: 1000px) {
+    &__content {
+      padding: ($space-md * 2) ($space-md * 2) !important;
+    }
+  }
 }
-&__hint a:hover {
-  text-decoration: underline;
-}
-
-
-@media screen and (max-width: 1000px){
-   &__content{
- 
-  padding: ($space-md * 2) ($space-md * 2) !important;}
-}
-}
-

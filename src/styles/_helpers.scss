@@ -3,8 +3,8 @@
 .u-flex {
   display: flex;
 }
-.u-f-direction-column{
-    flex-direction: column;
+.u-f-direction-column {
+  flex-direction: column;
 }
 .u-flex-center {
   display: flex;
@@ -14,7 +14,8 @@
 .u-inline-flex-center {
   display: inline-flex;
   align-items: center;
-  justify-content: center;}
+  justify-content: center;
+}
 
 .u-flex-between {
   display: flex;
@@ -32,7 +33,6 @@
   align-items: center;
 }
 
-
 .u-grid {
   display: grid;
 }
@@ -41,12 +41,12 @@
   display: grid;
   place-items: center;
 }
-.u-text-center{
-     text-align: center;
+.u-text-center {
+  text-align: center;
 }
 .u-center-screen {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; 
+  min-height: 100vh;
 }

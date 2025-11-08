@@ -1,7 +1,7 @@
-Chat App — Project Work, Sprint 1  
+Chat App — Project Work, Sprint 1
 
+## About Project
 
-## About Project  
 The projects goal is to lay out and structure the messenger interface, using the Handlebars template engine, modular architecture, and an SCSS preprocessor.
 The application includes several pages (login, registration, profile, chat, 404 and 505 pages) and the basic structure of the future SPA application.
 BEM methodology is used for class naming.
@@ -11,15 +11,18 @@ Style files are imported centrally via src/styles/index.scss.
 ---
 
 ## Tech Stack
+
 - **Vite** — a modern build environment and local server
 - **Handlebars** — a templating engine for component-based approaches
 - **SCSS (Sass)** — modular styles, variables, and mixins
 - **PostCSS** — style compatibility
 - **JavaScript ES Modules** — import and export structure
 - **Netlify** — project hosting and deployment
+
 ---
 
 ## Projects Structure
+
 src/
 ├── app/ # main JS input and helper functions
 ├── components/ # UI components (buttons, inputs, etc.)
@@ -39,12 +42,12 @@ src/
 ├── postcss.config.js
 ├── package.json
 
-
 ---
 
 ## Installation and launch
 
 ### Installing dependencies
+
 ```bash
 npm install
 
@@ -59,3 +62,4 @@ npm run build
 npm start
 
 ##  Author : Syuzanna Martirosyan
+```

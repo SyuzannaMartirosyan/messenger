@@ -1,8 +1,5 @@
-import template from "./error-message.hbs"
+import template from './error-message.hbs';
 
-
-export function renderMessageError({ code, message}) {
-   
-  return template({code, message})
-
+export function renderMessageError({ code, message }) {
+  return template({ code, message });
 }

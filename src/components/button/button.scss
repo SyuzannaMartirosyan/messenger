@@ -8,10 +8,9 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-font-style: normal;
-line-height: normal;
-font-family: var(--font-family-base);
-
+  font-style: normal;
+  line-height: normal;
+  font-family: var(--font-family-base);
 }
 
 .button--primary {
@@ -38,5 +37,3 @@ font-family: var(--font-family-base);
     transform: scale(0.98);
   }
 }
-
-

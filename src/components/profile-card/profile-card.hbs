@@ -1,11 +1,10 @@
-<div class="user-card">
-  <div class="user-card__avatar u-flex-center">
-    <img 
-      src="{{avatarSrc}}" 
-      alt="{{name}} {{lastName}} photo" 
-      class="user-card__avatar-img"
+<div class='user-card'>
+  <div class='user-card__avatar u-flex-center'>
+    <img
+      alt='{{name}} {{lastName}} photo'
+      class='user-card__avatar-img'
       onerror="this.style.display='none'; this.parentElement.classList.add('user-card__avatar--empty');"
-    >
+    />
   </div>
-  <p class="user-card__name">{{name}} {{lastName}}</p>
+  <p class='user-card__name'>{{name}} {{lastName}}</p>
 </div>

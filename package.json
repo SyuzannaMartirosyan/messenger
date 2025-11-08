@@ -12,6 +12,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
     "sass": "^1.93.3",
     "vite": "^7.1.7"
   },

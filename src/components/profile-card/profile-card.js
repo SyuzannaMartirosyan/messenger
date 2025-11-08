@@ -1,8 +1,5 @@
-import template from "./profile-card.hbs"
+import template from './profile-card.hbs';
 
-
-export function renderProfileCard({ avatarSrc, name, lastName}) {
-   
-  return template({avatarSrc, name, lastName })
-
+export function renderProfileCard({ avatarSrc, name, lastName }) {
+  return template({ avatarSrc, name, lastName });
 }

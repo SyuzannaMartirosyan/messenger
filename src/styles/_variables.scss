@@ -1,4 +1,3 @@
-
 /* font sizes */
 $font-size-l: 20px;
 $font-size-base: 16px;
@@ -17,32 +16,32 @@ $space-md: 16px;
 $space-lg: 20px;
 
 :root {
-   /* text*/
+  /* text*/
   --color-text-primary: #ffffff;
   --color-text-secondary: #a8c2f2;
   --color-text-dark: #040719;
- /* background */
+  /* background */
   --color-bg-page: #0c0b17;
   --color-bg-surface: #1a1f3f;
   --color-bg-surface-deep: #0c0b17;
   --color-bg-surface-hover: #242c59;
 
-/* sections bg */
+  /* sections bg */
   --color-bg-header: #252c58;
   --color-bg-btn-primary: #06ff83;
   --color-bg-btn-secondary: #0474e4;
   --color-bg-input: #f0f8ff;
   --color-bg-message: #f3f8fc;
   --color-messanger-border: rgba(255, 255, 255, 0.08);
-  --color-bg-avatar:  #ccc;
+  --color-bg-avatar: #ccc;
 
-/* button states */
+  /* button states */
   --color-accent-primary: #06ff83;
-  --color-accent-secondary: #375BDD;
+  --color-accent-secondary: #375bdd;
   --color-state-success: #0dcc00;
   --color-state-error: #ff2929;
 
-   /* font */
+  /* font */
   --font-family-base: 'Roboto', system-ui, sans-serif;
 
   --font-size-l: #{$font-size-l};

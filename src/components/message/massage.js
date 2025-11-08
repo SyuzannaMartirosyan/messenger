@@ -1,4 +1,4 @@
-import template from "./message.hbs";
+import template from './message.hbs';
 
 export function renderMessage({
   avatar,
