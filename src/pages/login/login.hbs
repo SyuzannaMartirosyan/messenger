@@ -5,7 +5,7 @@
 <form class="authentication__form " name="login">
   {{! булеан required нужно будет потом заменить на true}}
     {{> input name="login" label="Login" type="text" placeholder="Your Login"  autocomplete ="on" required=false }}
-    {{> input name="password" label="Password" type="password" placeholder="Password" autocomplete ="of" required=false }}
+    {{> input name="password" label="Password" type="password" placeholder="Password" autocomplete ="off" required=false }}
 
     <div class="authentication__actions">
        {{> button  text="Sign In" type ='submit' modifier="primary" dataRoute="./messenger.html"}}

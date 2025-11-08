@@ -52,3 +52,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   })
 })
+
+export function initRoot(selector, init) {
+  const root = document.querySelector(selector)
+  if (!root) return
+
+  init(root)
+}

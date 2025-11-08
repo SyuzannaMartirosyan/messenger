@@ -5,7 +5,7 @@
 align-items: center;
 }
 .profile-page__wrapper{
-    margin-top: 80px;
+    margin-top: var(--space-lg);
     width: calc((720px * 100vw)/1920px);
     gap: var(--space-md);
     padding: 30px 82px;
