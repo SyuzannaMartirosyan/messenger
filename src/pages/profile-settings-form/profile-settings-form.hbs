@@ -1,0 +1,47 @@
+<div class="profile-page u-flex-center u-f-direction-column">
+    <div class="profile-page_header u-flex">
+          {{> button-round
+      type="button"
+      modifier="secondary"
+      ariaLabel="return"
+      alt="iconBack"
+     dataRoute="./profile.html"
+  }}
+    </div>
+ 
+
+  <section class="profile-page__wrapper  u-f-direction-column ">
+    <div class="profile-page__card">
+       <div class="profile-page__header">
+        {{> profile-card
+          avatarSrc=avatarSrc
+          name="firstName"
+          lastName="lastName"
+        }}
+      </div>
+{{! нужно потом изменить параметр required }}
+      <form class="profile-page__form" name="profile">
+        {{> input name="email" label="Email Address" type="email" placeholder="Email Address" autocomplete ="off" required=false }}
+        {{> input name="login" label="Login" type="text" placeholder="Login" autocomplete ="off" required=false }}
+        {{> input name="first_name" label="Name" type="text" placeholder="Name" autocomplete ="off" required=false }}
+        {{> input name="second_name" label="Last Name" type="text" placeholder="Last Name" autocomplete ="off" required=false }}
+        {{> input name="display_name" label="User Name" type="text" placeholder="User Name" autocomplete ="off" required=false }}
+        {{> input name="phone" label="Phone Number" type="tel" placeholder="Phone Number" autocomplete ="off" required=false }}
+          {{> input
+          name="avatar"
+          label="Upload new avatar"
+          type="file"
+          accept="image/*"
+          autocomplete="off"
+          required=true
+        }}
+        <div class="profile-page__actions u-flex-center">
+
+            <form class="profile-page__form" name="change-avatar">
+      
+          {{> button  text="Save" type ='submit' modifier="primary" dataRoute="./profile.html"}}
+        </div>
+      </form>
+    </div>
+  </section>
+</div>

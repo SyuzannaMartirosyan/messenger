@@ -1,0 +1,11 @@
+<ul class="message-list">
+  {{#if timeLabel}}
+    <li class="message-list__divider">
+      <span class="message-list__divider-text u-flex-center">{{timeLabel}}</span>
+    </li>
+  {{/if}}
+
+  {{#each messages}}
+    {{> message this}}
+  {{/each}}
+</ul>

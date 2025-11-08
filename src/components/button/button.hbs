@@ -1,0 +1,10 @@
+<button
+  class="button u-inline-flex-center {{#if modifier}}button--{{modifier}}{{/if}}"
+  type="{{type}}" data-route="{{dataRoute}}"
+>
+  {{#if icon}}
+    <span class="button-action__icon u-flex">{{icon}}</span>
+  {{/if}}
+
+  <span class="button-action__text">{{text}}</span>
+</button>

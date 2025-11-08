@@ -1,0 +1,19 @@
+.messenger {
+  height: 100vh;
+  position: relative;
+
+  &__sidebar {
+    border-right: 1px solid var(--color-messanger-border);
+    width: calc(((620px * 100vw) / 1920px));
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - ((620px * 100vw) / 1920px));
+  }
+  &__messages {
+    flex: 1;
+    overflow-y: auto;
+  }
+}

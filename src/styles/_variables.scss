@@ -1,0 +1,60 @@
+/* font sizes */
+$font-size-l: 20px;
+$font-size-base: 16px;
+$font-size-sm: 14px;
+$font-size-xs: 12px;
+
+/* radiuses */
+$radius-sm: 8px;
+$radius-md: 12px;
+$radius-lg: 16px;
+
+/* spaces */
+$space-xs: 4px;
+$space-sm: 8px;
+$space-md: 16px;
+$space-lg: 20px;
+
+:root {
+  /* text*/
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #a8c2f2;
+  --color-text-dark: #040719;
+  /* background */
+  --color-bg-page: #0c0b17;
+  --color-bg-surface: #1a1f3f;
+  --color-bg-surface-deep: #0c0b17;
+  --color-bg-surface-hover: #242c59;
+
+  /* sections bg */
+  --color-bg-header: #252c58;
+  --color-bg-btn-primary: #06ff83;
+  --color-bg-btn-secondary: #0474e4;
+  --color-bg-input: #f0f8ff;
+  --color-bg-message: #f3f8fc;
+  --color-messanger-border: rgba(255, 255, 255, 0.08);
+  --color-bg-avatar: #ccc;
+
+  /* button states */
+  --color-accent-primary: #06ff83;
+  --color-accent-secondary: #375bdd;
+  --color-state-success: #0dcc00;
+  --color-state-error: #ff2929;
+
+  /* font */
+  --font-family-base: 'Roboto', system-ui, sans-serif;
+
+  --font-size-l: #{$font-size-l};
+  --font-size-base: #{$font-size-base};
+  --font-size-sm: #{$font-size-sm};
+  --font-size-xs: #{$font-size-xs};
+
+  --radius-sm: #{$radius-sm};
+  --radius-md: #{$radius-md};
+  --radius-lg: #{$radius-lg};
+
+  --space-xs: #{$space-xs};
+  --space-sm: #{$space-sm};
+  --space-md: #{$space-md};
+  --space-lg: #{$space-lg};
+}
