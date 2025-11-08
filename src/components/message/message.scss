@@ -24,7 +24,7 @@
 
     .message__bubble {
       background: var(--cwSurfaceBg, #24273a);
-      color: #fff;
+      color: var(--color-txt-primary);
       border-radius: 12px 12px 12px 0;
       align-items: flex-start;
     }
@@ -39,7 +39,7 @@
       width: 36px;
       height: 36px;
       border-radius: 50%;
-      background: #555;
+      background:var(--color-bg-avatar);
       object-fit: cover;
     }
   }
@@ -73,7 +73,7 @@
 
   &__meta {
     font-size: 12px;
-    color: #999;
+    color: var(--color-txt-secondary);
     display: flex;
     gap: 6px;
     margin-top: 2px;

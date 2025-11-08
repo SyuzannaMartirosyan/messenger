@@ -1,26 +1,29 @@
 .messenger {
   height: 100vh;
    position: relative;
-}
 
-.messenger__sidebar {
-  border-right: 1px solid rgba(255, 255, 255, 0.08);
+
+   &__sidebar {
+  border-right: 1px solid var(  --color-messanger-border);
     width: calc(((620px * 100vw )/1920px));
   
 }
 
-.messenger__content {
+   &__content {
   display: flex;
   flex-direction: column;
    width: calc(100vw - ((620px * 100vw )/1920px));
 }
-
-
-.messenger__messages {
+ &__messages {
   flex: 1;
   overflow-y: auto;
 }
 
-.messenger__footer {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
+
+
+
+
+
+
+

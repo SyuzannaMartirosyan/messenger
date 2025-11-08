@@ -21,8 +21,8 @@
 .info-field__input {
   background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(255,255,255,0.4);
-  color: #fff;
+  border-bottom: 1px solid var(--color-txt-secondary);
+  color:var(--color-txt-primary);
   text-align: right;
   width: 160px;
   outline: none;
