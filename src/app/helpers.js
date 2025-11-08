@@ -39,18 +39,16 @@ export default Handlebars;
 // Универсальный переход по кнопкам (временное решение до роутинга)
 document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("click", (event) => {
-    const button = event.target.closest(".button")
+    const target = event.target.closest(".button, .button-round")
+    if (!target) return
 
-    if (!button) return;
+    event.preventDefault()
 
-    event.preventDefault();
-
-    const route = button.dataset.route;
-
+    const route = target.dataset.route
     if (route) {
-      window.location.href = route;
+      window.location.href = route
     } else {
-      console.warn("⚠️ Кнопка без data-route:", button);
+      console.warn(`⚠️ ${target.classList.contains("button-round") ? ".button-round" : ".button"} без data-route`, target)
     }
-  });
-});
+  })
+})

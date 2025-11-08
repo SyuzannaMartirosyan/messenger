@@ -16,6 +16,9 @@ align-items: center;
 .profile-page_header{
     height: 74px;
     width: 100%;
+    justify-content: start;
+    align-items: center;
+    padding: var(--space-md);
     background-color: var(  --color-bg-header);
 }
 .profile-page__hint a{
