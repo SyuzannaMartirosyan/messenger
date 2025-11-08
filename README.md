@@ -6,6 +6,8 @@ Chat App — Project Work, Sprint 1
 [profile page]  https://gleeful-rolypoly-742202.netlify.app/profile.html
 [404] https://gleeful-rolypoly-742202.netlify.app/error404.html
 [505] https://gleeful-rolypoly-742202.netlify.app/error505.html
+[profile settings] https://gleeful-rolypoly-742202.netlify.app/profile-settings-form.html
+[change password] https://gleeful-rolypoly-742202.netlify.app/change-password-form.html
 
 
 Design file - https://www.figma.com/design/EH4Jx76LjuEwBAvbL8xX0F/module-1-y?node-id=65-1651&t=js3gJJoXdIv4a2wo-1
@@ -63,7 +65,8 @@ npm run dev
 npm run build
 
 ### Launching a project
-
+npm run start 
+# or simply
 npm start
 
 ##  Author : Syuzanna Martirosyan
