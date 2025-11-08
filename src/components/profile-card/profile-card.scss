@@ -26,7 +26,7 @@
 }
 
 .user-card__name {
-  margin-top: 8px;
+  margin-top: var(--space-md);
   color:var(--color-txt-primary);
   font-weight: 600;
 }
