@@ -27,7 +27,18 @@
         {{> input name="second_name" label="Last Name" type="text" placeholder="Last Name" autocomplete ="off" required=false }}
         {{> input name="display_name" label="User Name" type="text" placeholder="User Name" autocomplete ="off" required=false }}
         {{> input name="phone" label="Phone Number" type="tel" placeholder="Phone Number" autocomplete ="off" required=false }}
+          {{> input
+          name="avatar"
+          label="Upload new avatar"
+          type="file"
+          accept="image/*"
+          autocomplete="off"
+          required=true
+        }}
         <div class="profile-page__actions u-flex-center">
+
+            <form class="profile-page__form" name="change-avatar">
+      
           {{> button  text="Save" type ='submit' modifier="primary" dataRoute="./profile.html"}}
         </div>
       </form>
