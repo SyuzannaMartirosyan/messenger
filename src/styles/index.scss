@@ -1,0 +1,36 @@
+@use './helpers';
+@use './variables';
+@use '../views/components/button/button' ;
+@use '../views/components/input/input' ;
+@use '../views/components/button-round/button-round' ;
+@use '../views/components/button-action/button-action' ;
+@use '../views/components/message/message' ;
+@use '../views/components/info-field/info-field' ;
+@use '../views/components/profile-card/profile-card' ;
+@use '../views/modules/chat-list/chat-list' ;
+@use '../views/modules/message-form/message-form' ;
+@use '../views/modules/message-error/message-error' ;
+@use '../views/modules/chat-header/chat-header' ;
+@use '../views/pages/login/login' ;
+@use '../views/pages/messenger/messenger' ;
+@use '../views/pages/profile/profile' ;
+
+
+html, body, #app {
+  height: 100%;
+}
+
+*{
+ margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  background: var(--color-bg-page);
+  color: var(--color-text-primary);
+}
+

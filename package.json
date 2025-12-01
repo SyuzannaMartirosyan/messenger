@@ -1,0 +1,40 @@
+{
+  "name": "chat-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "check:newlines": "bash ./scripts/check-newlines.sh",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite dev --port 3000",
+    "lint": "eslint \"src/**/*.{ts,tsx,js}\"",
+    "lint:css": "stylelint \"src/**/*.{css,scss}\"",
+    "lint:css:fix": "stylelint \"src/**/*.{css,scss}\" --fix",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"No tests yet\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.39.1",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "sass": "^1.93.3",
+    "stylelint": "^16.26.1",
+    "stylelint-config-standard": "^39.0.1",
+    "stylelint-config-standard-scss": "^16.0.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.47.0",
+    "vite": "^7.1.7"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  },
+  "engines": {
+    "node": ">=24.6.0"
+  },
+  "lint:css": "stylelint \"src/**/*.{css,scss}\"",
+  "lint:css:fix": "stylelint \"src/**/*.{css,scss}\" --fix"
+}
