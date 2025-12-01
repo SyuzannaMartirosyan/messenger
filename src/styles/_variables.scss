@@ -17,10 +17,11 @@ $space-md: 16px;
 $space-lg: 20px;
 
 :root {
-   /* text*/
-  --color-text-primary: #ffffff;
+   /* text */
+  --color-text-primary: #fff;
   --color-text-secondary: #a8c2f2;
   --color-text-dark: #040719;
+
  /* background */
   --color-bg-page: #0c0b17;
   --color-bg-surface: #1a1f3f;
@@ -42,16 +43,13 @@ $space-lg: 20px;
 
    /* font */
   --font-family-base: 'Roboto', system-ui, sans-serif;
-
   --font-size-l: #{$font-size-l};
   --font-size-base: #{$font-size-base};
   --font-size-sm: #{$font-size-sm};
   --font-size-xs: #{$font-size-xs};
-
   --radius-sm: #{$radius-sm};
   --radius-md: #{$radius-md};
   --radius-lg: #{$radius-lg};
-
   --space-xs: #{$space-xs};
   --space-sm: #{$space-sm};
   --space-md: #{$space-md};
