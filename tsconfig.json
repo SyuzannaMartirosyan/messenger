@@ -1,18 +1,19 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "strict": true,
-    "noImplicitAny": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
+ "compilerOptions": {
+  "target": "ESNext",
+  "module": "ESNext",
+  "moduleResolution": "bundler",
+  "strict": true,
+  "noImplicitAny": true,
+  "noUnusedLocals": true, 
+  "esModuleInterop": true,
+  "skipLibCheck": true,
+  "forceConsistentCasingInFileNames": true,
 
-    "baseUrl": "./src",
-    "paths": {
-      "@/*": ["./*"]
-    }
-  },
-  "include": ["src"]
+  "baseUrl": "./src",
+  "paths": {
+    "@/*": ["./*"]
+  }
+},
+"include": ["src"]
 }
