@@ -184,3 +184,4 @@ export abstract class Block<
     return this.element.querySelectorAll(selector) as NodeListOf<T>;
   }
 }
+

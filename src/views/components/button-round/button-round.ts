@@ -63,3 +63,4 @@ export class ButtonRound extends Block<ButtonRoundProps> {
     this._handleClick = undefined;
   }
 }
+

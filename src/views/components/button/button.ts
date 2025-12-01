@@ -62,3 +62,4 @@ export class Button extends Block<ButtonProps> {
     this._handleClick = undefined;
   }
 }
+

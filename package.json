@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "check:newlines": "bash ./scripts/check-newlines.sh",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",

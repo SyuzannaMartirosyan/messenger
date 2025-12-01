@@ -228,3 +228,4 @@ export class ChatList extends Block<ChatListProps, ChatListState> {
     }
   }
 }
+

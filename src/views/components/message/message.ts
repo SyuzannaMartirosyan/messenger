@@ -105,3 +105,4 @@ export class Message extends Block<MessageProps> {
     this._domClickHandler = undefined;
   }
 }
+

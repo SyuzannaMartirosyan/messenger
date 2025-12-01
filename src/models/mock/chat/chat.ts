@@ -6,3 +6,4 @@ export type ChatData = {
   lastMessage?: string;
   unreadCount?: number;
 };
+

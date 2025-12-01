@@ -77,3 +77,4 @@ export class ChatItem extends Block<ChatItemProps> {
     this._domClickHandler = undefined;
   }
 }
+

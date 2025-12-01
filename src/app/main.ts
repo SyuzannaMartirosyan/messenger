@@ -37,3 +37,4 @@ mountPage("#appProfilePage", ProfilePage);
 mountPage("#profileSettingsForm", ProfileSettingsForm);
 
 mountPage("#changePasswordForm", ChangePasswordForm);
+

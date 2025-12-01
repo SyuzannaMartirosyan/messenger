@@ -93,3 +93,4 @@ export class MessageList extends Block<MessageListProps, MessageListState> {
     listEl.scrollTop = listEl.scrollHeight;
   }
 }
+

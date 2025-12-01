@@ -6,7 +6,7 @@ Design file - https://www.figma.com/design/EH4Jx76LjuEwBAvbL8xX0F/module-1-y?nod
 
 Chat App — Project Work, Sprint 1
 About Project
-
+ 
 The goal of this project is to build the layout and basic client architecture of a messenger application using TypeScript, a custom Block base class, and an MVC-style structure.
 
 The application includes several pages (login, registration, profile, chat, 404 and 505 pages) and forms the foundation of a future SPA: routing and real API integration will be added in the next sprints.
@@ -124,3 +124,4 @@ npm run lint:css
 npm test   # or npm run test / npm run check
 
 Author:Syuzanna Martirosyan
+

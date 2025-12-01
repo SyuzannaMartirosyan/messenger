@@ -60,3 +60,4 @@ export class Error505Page extends Block<Error505Props, Error505State> {
     }
   }
 }
+

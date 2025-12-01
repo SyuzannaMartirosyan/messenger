@@ -23,3 +23,4 @@ export class EventBus<Events> {
     handlers.forEach((cb) => cb(payload));
   }
 }
+

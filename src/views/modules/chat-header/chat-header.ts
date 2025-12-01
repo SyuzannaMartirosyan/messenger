@@ -71,3 +71,4 @@ export class ChatHeader extends Block<ChatHeaderProps> {
     container.appendChild(this.settingsButton.getContent());
   }
 }
+

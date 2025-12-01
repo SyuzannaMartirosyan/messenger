@@ -61,3 +61,4 @@ export class ProfileCard extends Block<ProfileCardProps> {
     this._domClickHandler = undefined;
   }
 }
+

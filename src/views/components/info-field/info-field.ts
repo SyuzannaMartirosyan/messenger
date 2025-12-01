@@ -70,3 +70,4 @@ export class InfoField extends Block<InfoFieldProps> {
     this._domInputHandler = undefined;
   }
 }
+

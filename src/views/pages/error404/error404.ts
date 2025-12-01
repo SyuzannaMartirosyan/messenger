@@ -60,3 +60,4 @@ export class Error404Page extends Block<Error404Props, Error404State> {
     }
   }
 }
+

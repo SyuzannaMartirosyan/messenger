@@ -4,3 +4,4 @@ export const messages = {
      { id: 2, chatId: 2, text: "Of course", time: "15:00", isMine: false, hasImage: false },
   ]
 };
+

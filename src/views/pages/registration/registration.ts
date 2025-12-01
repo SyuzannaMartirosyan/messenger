@@ -415,3 +415,4 @@ export class RegistrationPage extends Block<
     }
   }
 }
+

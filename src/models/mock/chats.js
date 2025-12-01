@@ -8,3 +8,4 @@ export const chats = [
     avatar: null,
   }
 ]
+

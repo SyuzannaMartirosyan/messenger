@@ -92,3 +92,4 @@ export function createValidator(config: ValidationConfig): Validator {
 
   return { validateAll, destroy };
 }
+

@@ -80,3 +80,4 @@ export class Input extends Block<InputProps> {
     this._domInputHandler = undefined;
   }
 }
+

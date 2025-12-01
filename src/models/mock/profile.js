@@ -11,3 +11,4 @@ export const profileData = {
     { label: "Phone Number", type: "tel",   name: "phone",     value: "+7 xxxx xxxx xxxx", isEditable: true },
   ]
 };
+

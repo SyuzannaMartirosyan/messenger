@@ -55,3 +55,4 @@ export class ButtonAction extends Block<ButtonActionProps> {
     this._handleClick = undefined;
   }
 }
+
